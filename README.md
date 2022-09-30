@@ -25,6 +25,16 @@ ________
 The `setCanvasDimensions()` function below parses the CSS and automatically sets the `width` and `height` attributes on the `<canvas>` element to correspond with the values already declared in the CSS.
 _________
 
+## CSS
+
+```css
+canvas {
+  width: 640px;
+  height: 640px;
+}
+```
+_________
+
 ## JavaScript
 ```js
 const setCanvasDimensions = (canvas) => {
