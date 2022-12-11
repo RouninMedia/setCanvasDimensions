@@ -40,7 +40,7 @@ _________
 const setCanvasDimensions = (canvas) => {
   canvas.setAttribute('width', window.getComputedStyle(canvas).width.replace('px', ''));
   canvas.setAttribute('height', window.getComputedStyle(canvas).height.replace('px', ''));
-}
+};
 
 let myCanvas = document.querySelector('canvas');
 setCanvasDimensions(myCanvas); // <= INITIALISES CANVAS DIMENSIONS
